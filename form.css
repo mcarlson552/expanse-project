@@ -1,0 +1,144 @@
+.flex_nav{
+	display: flex;
+	margin: 0;
+	padding: .5em;
+	list-style-type: none;
+	border-radius: .2em;
+}
+
+.flex_nav>li{
+	margin-top: 0;
+}
+
+.flex_nav>li>a{
+	display: block;
+	padding: .5em 1em;
+	background-color: #cc6b5a;
+	color: white;
+}
+
+.nav_grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 0.5em;
+	list-style-type: none;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+body{
+	background-color: rgb(0, 0, 0);
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 13px;
+	color: rgb(247,146, 86);
+}
+
+h1{
+	text-align: center;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+
+header a:link{color: white;}
+header a:visited {color: green;}
+header a:hover {color: red;}
+header a:active {color: orange;}
+
+
+
+.contact{
+	align-items: center;
+	width: 35%;
+	height: auto;
+	padding: 10px 25px 25px 20px;
+	border: 1px solid white;
+	margin: 15px 15px 15px 32%;
+	border-radius: 25px;
+	clear:both;
+	background-color: rgb( 29, 78, 137);
+	text-align: center;
+}
+
+input[type=submit], input[type=reset]{
+	width: 20%;
+	display: block;
+	padding: 10px 20px;
+	margin: 15px 0px 15px 20%;
+	border-radius: 25px;
+	float: left;
+	background-color: rgb( 29, 78, 137);
+	font-size: 1.2rem;
+	}
+
+.columns{
+	columns: 3;
+	column-width: 150px;
+    column-gap: 3em;
+    column-rule: 1px dotted white;
+}
+
+.container{
+	align-items: center;
+	width: 55%;
+	height: auto;
+	padding: 10px 55px 25px 50px;
+	border: 1px solid white;
+	margin: 15px 15px 15px 20%;
+	border-radius: 25px;
+	clear:both;
+	background-color: rgb( 29, 78, 137);
+	text-align: center;
+	font-size: 15px
+}
+
+input[type=text], input[type=email], input[type=tel], select{
+	width: 60%;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin: 10px 10px 10px 10px;
+	}
+
+input[type=checkbox]{
+	border-radius: 10px;
+}
+
+input[type=date]{
+	width: 30%;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.family{
+	align-items: center;
+	width: 35%;
+	height: auto;
+	padding: 10px 25px 25px 20px;
+	border: 1px solid white;
+	margin: 15px 15px 15px 32%;
+	border-radius: 25px;
+	clear:both;
+	background-color: rgb( 29, 78, 137);
+	text-align: center;
+}
+
+
+.main{
+	align-items: center;
+	width: 55%;
+	height: auto;
+	padding: 10px 55px 25px 50px;
+	border: 1px solid white;
+	margin: 15px 15px 15px 20%;
+	border-radius: 25px;
+	clear:both;
+	background-color: rgb(29, 78, 137);
+	text-align: center;
+	font-size: 15px
+}
