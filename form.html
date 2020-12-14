@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="solar system, future, outer worlds, aliens">
+		<meta name="author" content="Meghan Carlson">
+		<title>The Expanse favorites form!</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+		<meta name="description" content="This page is a form to fill in about your favorites about the TV show called The Expanse.">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="flex_nav, nav_grid" id="top">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">The Novels</a></li>
+					<li><a href="#">The Characters</a></li>
+					<li><a href="#">The Places</a></li>
+					<li><a href="#">Where to Watch</a></li>
+					<li><a href="form.html">Favorite Character Form</a></li>
+				</ul>
+			</nav>
+			<br>
+			<h1>The Expanse Favorites!</h1><br>
+		</header>
+		
+		<main>
+
+			<form id="expanseForm" action="feedback.php" method="post">
+
+			<div class="main">
+			<h2>What is your favorite thing about The Expanse?</h2>
+			<label for="subjectName">Name of item: </label>
+			<input type="text" id="subjectName" name="subjectName" required>
+			<br><label for="whyLike">Why is this item/person your favorite?:</label>
+			<input type="text" id="whyLike" name="whyLike" required>
+			</div>
+			
+			<div class="family">
+			<h3>What type is this object?</h3>
+
+			<select id="classification" required>
+				<option value="" disabled selected hidden>Classification</option>
+				<option value="Planet">Planet</option>
+				<option value="Moon">Moon</option>
+				<option value="Comet">Comet</option>
+				<option value="Asteroid">Asteroid</option>
+				<option value="Character">Character</option>
+				<option value="Station">Space Station</option>
+				<option value="Other">Other or Multiple Classifications</option>
+			</select>
+
+			<br><label for="otherClassification">If you selected "Other or Multiple Classifications", please describe here:</label>
+			<input type="text" id="otherClassification" name="otherClassification">
+
+
+			<h3>Which book is your favorite?</h3>
+
+			<select id="books" required>
+				<option value="" disabled selected hidden>Books</option>
+				<option value="one">Leviathan Wakes</option>
+				<option value="two">Caliban's War</option>
+				<option value="three">Abaddon's Gate</option>
+				<option value="four">Cibola Burn</option>
+				<option value="five">Nemesis Games</option>
+				<option value="six">Babylon's Ashes</option>
+				<option value="seven">Persepolis Rising</option>
+				<option value="eight">Tiamat's Wrath</option>
+				<option value="unknown">Don't know/Didn't read the books</option>
+				<option value="Other">One of the novella's or multiple books</option>
+			</select>
+
+			<br><label for="otherBook">If you selected one of the novella's or multiple books, please describe here:</label>
+			<input type="text" id="otherBook" name="otherBook">
+			
+			<h3>Do you think the books are better than the TV show?</h3>
+			<label for="familyYes">YES</label>
+			<input type="radio" id="familyYes" name="family" value="yes"><br>
+			<label for="familyNo">NO</label>
+			<input type="radio" id="familyNo" name="family" value="no"><br>
+			</div>
+
+			<div class="container">
+			<h3>Who are your favorite characters?</h3><div class="columns">
+			<input type="checkbox" id="holden" name="characters" value="holden">
+			<label for="holden">James Holden</label><br>
+			<input type="checkbox" id="alex" name="characters" value="alex">
+			<label for="alex">Alex Kamal</label><br>
+			<input type="checkbox" id="naomi" name="characters" value="naomi">
+			<label for="naomi">Naomi Nagata</label><br><br>
+			<input type="checkbox" id="amos" name="characters" value="amos">
+			<label for="amos">Amos Burton</label><br>
+			<input type="checkbox" id="avasarala" name="characters" value="avasarala">
+			<label for="avasarala">Chrisjen Avasarala</label><br>
+			<input type="checkbox" id="bobbie" name="characters" value="bobbie">
+			<label for="bobbie">Bobbie Draper</label><br><br>
+			<input type="checkbox" id="miller" name="characters" value="miller">
+			<label for="miller">Joe Miller</label><br>
+			<input type="checkbox" id="otherItem" name="characters" value="otherItem">
+			<label for="otherItem">Other characters than what are listed here</label></div>
+
+			<h4>If you selected other characters, please describe here:</h4>
+			<input type="text" id="otherItemDesc" name="otherItemDesc">
+			</div>
+
+			<input type="submit" value="Send">
+			<input type="reset" value="Clear">
+
+		</form>
+		</main>
+
+		<footer> Contact: Meghan Carlson
+		<br> Email: Mcarlson7@collin.edu
+		<br><a href="home.html#top">Return to Top</a></footer>
+	</body>
+</html>	
